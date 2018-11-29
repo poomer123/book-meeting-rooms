@@ -1,0 +1,25 @@
+{
+  "name": "book-meeting-rooms",
+  "version": "1.0.0",
+  "description": "book meeting rooms application with Vue.js and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poomer123/book-meeting-rooms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poomer123/book-meeting-rooms/issues"
+  },
+  "homepage": "https://github.com/poomer123/book-meeting-rooms#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
