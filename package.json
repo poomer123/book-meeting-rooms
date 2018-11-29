@@ -1,0 +1,24 @@
+{
+  "name": "book-meeting-rooms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "cd frontend && yarn run serve",
+    "start:backend": "cd backend && yarn start",
+    "start": "concurrently \"yarn run start:backend\" \"yarn run start:frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poomer123/book-meeting-rooms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poomer123/book-meeting-rooms/issues"
+  },
+  "homepage": "https://github.com/poomer123/book-meeting-rooms#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
