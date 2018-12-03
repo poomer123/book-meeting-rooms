@@ -5,6 +5,12 @@ const bodyParser = require('body-parser')
 const { check, validationResult } = require('express-validator/check')
 const PORT = 3000
 
+const connect = require('./config/database')
+
+connect.query('show tables', (err, result) => {
+    console.log(result)
+})
+
 // session config
 server.use(session({
     secret: 'kickdown.in.th',
